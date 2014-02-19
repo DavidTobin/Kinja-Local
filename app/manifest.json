@@ -1,0 +1,14 @@
+{
+    "name": "Kinja Development URLs",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Replaces Kinja live urls with development ones.",
+    "default_locale": "en",
+    "content_scripts": [
+        {
+            "matches": ["http://*.kinja.local:9000/*"],
+            "js": ["scripts/jquery.js", "scripts/replacer.js"],
+            "run_at": "document_end"
+        }
+    ]
+}

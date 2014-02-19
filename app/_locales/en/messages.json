@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Kinja Local",
+    "description": "The name of the application"
+  },
+  "appDescription": {
+    "message": "Replaces .com:9000 urls to .local:9000",
+    "description": "The description of the application"
+  }
+}
